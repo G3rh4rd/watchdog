@@ -3,7 +3,7 @@
 A thread based software watchdog that fires callback function, when it's not resetted after a specified time intervall.
 
 Example usage:
-'''
+```
 #include "watchdog_timer.h"
 
 #define WATCHDOG_RESET_TIME_MS 2000
@@ -33,4 +33,4 @@ int main() {
 	
 	return 0;
 }
-'''
+```
